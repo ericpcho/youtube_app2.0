@@ -1,0 +1,98 @@
+body {
+  padding-top: 50px;
+}
+
+img {
+display: inline-block;
+height: 100px;
+width: 150px;
+padding: 5px;
+}
+
+.js-search-results {
+  width:850px; 
+  background:#fff; 
+  text-align:left; /*resets text alignment from body tag */
+  border:1px solid #ccc;
+  border-top:none; 
+  padding:25px; 
+  /*Let's add some CSS3 styles, these will degrade gracefully in older browser and IE*/
+  border-radius:0 0 5px 5px;
+  -moz-border-radius:0 0 5px 5px;
+  -webkit-border-radius: 0 0 5px 5px; 
+  box-shadow:0 0 5px #ccc;
+  -moz-box-shadow:0 0 5px #ccc;
+  -webkit-box-shadow:0 0 5px #ccc;
+}
+
+.hidden {
+  display: none;
+}
+
+.playvideo {
+  display: block;
+}
+
+.imgdiv {
+  padding: 5px;
+  width: 18%;
+  display: inline-block;
+}
+
+.nextpage-button {
+  position: relative;
+  width: 100px;
+  top: -140px;
+  right: -90px;
+  float: right;
+}
+
+.prevpage-button {
+  position: relative;
+  width: 100px;
+  top: -140px;
+  left: -90px;
+  float: left;
+}
+
+.nextpage-button:hover {
+  cursor: pointer;
+}
+
+.prevpage-button:hover {
+  cursor: pointer;
+}
+
+.js-search-results{
+  /* border: 1px solid blue; */
+  text-align: center;
+  margin: auto;
+}
+
+.container {
+  /* border: 1px solid red; */
+  width: 900px;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+}
+
+.viewchannel{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+main{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
